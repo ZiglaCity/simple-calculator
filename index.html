@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Calculator</title>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <input type="text" id="result" placeholder="0">
+            <input type="button" value="1" onclick="addNumber('1')">
+            <input type="button" value="2" onclick="addNumber('2')">
+            <input type="button" value="3" onclick="addNumber('3')">
+            <input type="button" value="+" onclick="addOperator('+')">
+            <br>
+            <input type="button" value="4" onclick="addNumber('4')" >
+            <input type="button" value="5" onclick="addNumber('5')">
+            <input type="button" value="6" onclick="addNumber('6')">
+            <input type="button" value="-" onclick="addOperator('-')">
+            <br>
+            <input type="button" value="7" onclick="addNumber('7')">
+            <input type="button" value="8" onclick="addNumber('8')">
+            <input type="button" value="9" onclick="addNumber('9')">
+            <input type="button" value="*" onclick="addOperator('*')">
+            <br>
+            <input type="button" value="C" onclick="clearResult()">
+            <input type="button" value="0" onclick="addNumber('0')">
+            <input type="button" value="/" onclick="addOperator('/')">
+            <input type="button" value="=" onclick="calculate()">
+           </div>
+    </body>
+</html>
