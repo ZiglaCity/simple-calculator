@@ -7,3 +7,9 @@ function addOperator(operator) {
     document.getElementById("result").value += operator;
 }
   
+
+
+function clearResult() {
+    document.getElementById("result").value = "";
+}
+
