@@ -34,4 +34,36 @@ input[type="text"] {
     border-radius: 5px;
     border: none;
     margin-bottom: 10px;
+
+    background-color: #fff; 
+    box-shadow:0 4px rgba(0,0,0,0.2);  
+    font-size:20px; 
+    float:left;  
+    margin:5px;  
+    margin-bottom:15px;  
+    outline: 2;  
+    position: relative; 
+    color: #495069;  
+  
+
+
 }
+
+input[type="text"]:active {  
+    border: 4 solid #000;  
+    color: #495069;  
+    background-color: #fff;  
+    border-radius: 4px;   
+    font-size: 20px;  
+    box-shadow: none;  
+}  
+  
+
+input[type="button"]:hover{  
+    border:0 solid#000;  
+    color:#495069;  
+    background-color:#fff;  
+    border-radius: 4px;  
+    box-shadow: 0 4px #b0d2cf;  
+}  
+
